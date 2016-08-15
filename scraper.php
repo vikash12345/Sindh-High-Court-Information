@@ -13,5 +13,5 @@ for($id = 1; $i <= $MAX_ID; $id++)
     
  $dom = new simple_html_dom();
  $dom->load($html);
- print_r($dom->find("table.list"));
+ print_r($dom);
 }
